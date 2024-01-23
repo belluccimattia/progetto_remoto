@@ -13,7 +13,8 @@ public class triangoloEquilatero extends Application {
 	TextField tLato=new TextField();
 	 TextField tAltezza= new TextField();
 	 Label lRisultato=new Label();
-	 Label lNome=new Label("Anwar Belkheir, Alejandro Ordonez  Romero, Gabriele Menichetti, Daniele Morelli");
+ 	 Label lAllegrucci=new Label("Alessandro Allegrucci miglior intenditore di salami");
+	 Label lNome=new Label("Bellucci Mattia,Allegrucci Alessandro, Mischianti Ludovico, Ricci Andrea");
 	 Label lData=new Label("2023");
 	public void start (Stage finestra) {
 		Button bArea=new Button("Calcolo area");
@@ -27,6 +28,7 @@ public class triangoloEquilatero extends Application {
 		griglia.add(bPerimetro, 0, 4);
 		griglia.add(lNome, 0, 6);
 		griglia.add(lData, 2, 7);
+		griglia.add(lAllegrucci, 0, 8);
 
 		Scene scena=new Scene(griglia);
 		finestra.setTitle("Triangolo equilatero");
